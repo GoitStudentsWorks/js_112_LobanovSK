@@ -1,0 +1,1236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Fullstack Developer Lloyd Jefferson"
+    />
+    <link rel="icon" href="src/images/favicon.ico" type="image/x-icon" />
+    <!-- Підключення Normalize CSS і Google Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/accordion-js/dist/accordion.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/accordion-js"></script>
+
+    <!-- Підключення єдиного файлу стилів -->
+    <link rel="icon" type="icon/svg" href="/js_112_LobanovSK/assets/favicon-CKsL5E-4.svg" />
+    <title>Portfolio | Lloyd Jefferson</title>
+    <script type="module" crossorigin src="/js_112_LobanovSK/index.js"></script>
+    <link rel="modulepreload" crossorigin href="/js_112_LobanovSK/assets/vendor-CjDYmeSF.js">
+    <link rel="stylesheet" crossorigin href="/js_112_LobanovSK/assets/vendor-DEH-5EGg.css">
+    <link rel="stylesheet" crossorigin href="/js_112_LobanovSK/assets/index-HRmxv0o1.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="container header-container">
+    <a
+      href="https://lobanovsk.github.io/portfolio-js-team-9/"
+      class="header-logo"
+    >
+      <img src="/js_112_LobanovSK/assets/logo-header-rDCDJn0i.png" alt="Logo" />
+      <span class="header-logo-text">jefferson*</span>
+    </a>
+    <div class="header-menu-container">
+      <button class="header-menu-btn js-header-menu-btn">Menu</button>
+      <nav class="header-dropdown-menu js-header-dropdown-menu">
+        <ul class="header-dropdown-menu-list">
+          <li class="header-dropdown-menu-list-item">
+            <a class="header-dropdown-menu-list-item-a" href="#about"
+              >About me</a
+            >
+          </li>
+          <li class="header-dropdown-menu-list-item">
+            <a class="header-dropdown-menu-list-item-a" href="#benefits"
+              >Benefits</a
+            >
+          </li>
+          <li class="header-dropdown-menu-list-item">
+            <a class="header-dropdown-menu-list-item-a" href="#projects"
+              >Projects</a
+            >
+          </li>
+          <li class="header-dropdown-menu-list-item">
+            <a class="header-dropdown-menu-list-item-a" href="#faq">FAQ</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <button
+      class="header-mobile-menu-btn"
+      type="button"
+      data-menu-open="header"
+    >
+      <svg width="28" height="28">
+        <use href="/js_112_LobanovSK/assets/icon-sprite-header-BE_msGur.svg#icon-menu"></use>
+      </svg>
+    </button>
+    <a href="#order" class="header-order-btn js-header-mobile-menu-link"
+      >Order the project</a
+    >
+    <div class="header-mobile-menu-overlay" data-menu="header">
+      <div class="header-mobile-menu">
+        <button
+          class="header-close-menu-btn"
+          type="button"
+          data-menu-close="header"
+        >
+          <svg width="28" height="28">
+            <use href="/js_112_LobanovSK/assets/icon-sprite-header-BE_msGur.svg#icon-close"></use>
+          </svg>
+        </button>
+        <ul class="header-mobile-menu-list">
+          <li class="header-mobile-menu-list-item">
+            <a href="#about" class="js-header-mobile-menu-link">About me</a>
+          </li>
+          <li class="header-mobile-menu-list-item">
+            <a href="#benefits" class="js-header-mobile-menu-link">Benefits</a>
+          </li>
+          <li class="header-mobile-menu-list-item">
+            <a href="#projects" class="js-header-mobile-menu-link">Projects</a>
+          </li>
+          <li class="header-mobile-menu-list-item">
+            <a href="#faq" class="js-header-mobile-menu-link">FAQ</a>
+          </li>
+        </ul>
+        <a
+          href="#order"
+          class="header-order-btn-modal js-header-mobile-menu-link"
+          >Order the project</a
+        >
+      </div>
+    </div>
+  </div>
+</header>
+
+    <main>
+      <section class="hero-section" data-aos="fade-up">
+  <div class="container hero-container">
+    <h1 class="hero-title">
+      Hello. <br />I'm Fullstack developer <br />Lloyd Jefferson.
+    </h1>
+    <ul class="social-networks">
+      <li class="social-networks-item">
+        <a
+          class="social-networks-link instagram"
+          href="https://www.instagram.com/goitclub/"
+          target="_blank"
+          >IG</a
+        >
+      </li>
+      <li class="social-networks-item">
+        <a
+          class="social-networks-link facebook"
+          href="https://www.facebook.com/goITclub/"
+          target="_blank"
+          >FB</a
+        >
+      </li>
+      <li class="social-networks-item">
+        <a
+          class="social-networks-link youtube"
+          href="https://www.youtube.com/c/GoIT"
+          target="_blank"
+          >YT</a
+        >
+      </li>
+      <li class="social-networks-item">
+        <a
+          class="social-networks-link github"
+          href="https://github.com/LobanovSK/Portfolio-JS-team-9"
+          target="_blank"
+          >GH</a
+        >
+      </li>
+      <li class="social-networks-item">
+        <a
+          class="social-networks-link e-mail"
+          href="mailto:lloydjefferson@gmail.com"
+          >lloydjefferson@gmail.com</a
+        >
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="about-me section" id="about">
+  <div class="container">
+    <h2 class="hidden">About me</h2>
+    <div class="about-me-discr">
+      <div class="discr-card">
+        <p class="discr-text">
+          <span class="one-line">I work with people all over </span>
+          <span class="one-line">the world to create</span>
+          <span class="one-line"
+            >impressive and
+            <span class="accent-first">functional</span>
+          </span>
+          <span class="one-line">
+            <span class="accent-second">websites</span> that reflect each
+          </span>
+          <span class="one-line"> client's unique personality. </span>
+        </p>
+      </div>
+      <div class="discr-card-img">
+        <picture>
+          <source
+            srcset="/js_112_LobanovSK/assets/about_me_desk-B6aVI7ah.jpg 1x, /js_112_LobanovSK/assets/about_me_desk@2-DvXV5BJC.jpg 2x"
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcset="/js_112_LobanovSK/assets/about_me_mob-EcZx4Odj.jpg 1x, /js_112_LobanovSK/assets/about_me_mob@2x-BIIIunCK.jpg 2x"
+            media="(max-width: 767px)"
+          />
+          <source
+            srcset="/js_112_LobanovSK/assets/about_me_tab-DsFiAsi1.jpg 1x, /js_112_LobanovSK/assets/about_me_tab@2-C7WcsT0w.jpg 2x"
+            media="(min-width: 768px)"
+          />
+          <img
+            loading="lazy"
+            src="/js_112_LobanovSK/assets/about_me_mob-EcZx4Odj.jpg"
+            alt="men"
+            class="discr-img"
+          />
+        </picture>
+      </div>
+    </div>
+    <ul class="accordion-container accordion-list">
+      <li class="ac accordion-item open is-active">
+        <h2 class="ac-header ac-trigger accordion-header">
+          <span class="accordion-title">About Me</span>
+          <button
+            class="about-accordion-toggle about-svg-icon"
+            aria-expanded="true"
+          >
+            <div class="about-icon about-icon-up" width="20" height="20">
+              <img src="" />
+            </div>
+            <div class="about-icon about-icon-down" width="20" height="20">
+              <img src="imgDown" />
+            </div>
+          </button>
+        </h2>
+        <div class="ac-panel accordion-content">
+          <div class="ac-text">
+            <p style="color: white">
+              I am Lloyd Jefferson, a talented programmer with extensive
+              expertise in software development. I have an understanding of
+              different programming languages and technologies, always ready to
+              improve my skills. I always follow the latest trends and look for
+              unconventional, creative solutions to problems. I have a high
+              level of analytical skills and am able to effectively solve even
+              the most difficult tasks encountered on the way.
+            </p>
+            <p style="color: white">
+              Able to work both independently and in a team. I can effectively
+              cooperate with colleagues, exchanging ideas and finding optimal
+              solutions. Professional maturity allows you to calmly cope with
+              challenges and stressful situations, while maintaining a high
+              quality of work. I am always looking for opportunities for
+              self-improvement. I actively study new technologies and practices
+              to stay abreast of the latest innovations. I have a strong
+              understanding of various programming languages, frameworks and
+              architectural concepts that allow me to create efficient and
+              scalable software.
+            </p>
+          </div>
+        </div>
+      </li>
+      <li class="ac accordion-item open">
+        <h2 class="ac-header ac-trigger accordion-header">
+          <span class="accordion-title"> Role </span>
+          <button
+            class="about-accordion-toggle about-svg-icon"
+            aria-expanded="true"
+          >
+            <div class="about-icon about-icon-up" width="20" height="20">
+              <img src="../img/about-icon-up.svg" />
+            </div>
+            <div class="about-icon about-icon-down" width="20" height="20">
+              <img id="icon-down" src="imgDown" />
+            </div>
+          </button>
+        </h2>
+        <div class="ac-panel accordion-content">
+          <ul class="ac-text accordion-role-list">
+            <li>Frontend development</li>
+            <li>HeadlessCMS, Wordpress</li>
+            <li>Blender (enjoy)</li>
+          </ul>
+        </div>
+      </li>
+      <li class="ac accordion-item open">
+        <h2 class="ac-header ac-trigger accordion-header">
+          <span class="accordion-title">Education</span>
+          <button
+            class="about-accordion-toggle about-svg-icon"
+            aria-expanded="true"
+          >
+            <div class="about-icon about-icon-up" width="20" height="20">
+              <img src="../img/about-icon-up.svg" />
+            </div>
+            <div class="about-icon about-icon-down" width="20" height="20">
+              <img id="icon-down" src="imgDown" />
+            </div>
+          </button>
+        </h2>
+        <div class="ac-panel accordion-content">
+          <ul class="ac-text accordion-education-list">
+            <li>
+              2018 - 2019 / Frontend Development Diploma, GoIT IT School, New
+              York
+            </li>
+            <li>
+              2019 - 2020 / Advanced Web Development Certificate, GoIT IT
+              School, New York
+            </li>
+            <li>2020 - 2022 / Advanced Blender Animation Techniques, Udemy</li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+    <div class="swiper-container-aboutme">
+      <div class="skills-swiper-about-me">
+        <ul class="skills-list">
+          <li class="skills-list-items">
+            <div class="swiper-name-list-aboutme">HTML/CSS</div>
+          </li>
+          <li class="skills-list-items">
+            <div class="swiper-name-list-aboutme">JavaScript</div>
+          </li>
+          <li class="skills-list-items">
+            <div class="swiper-name-list-aboutme">React</div>
+          </li>
+          <li class="skills-list-items">
+            <div class="swiper-name-list-aboutme">Node. js</div>
+          </li>
+          <li class="skills-list-items">
+            <div class="swiper-name-list-aboutme">React Native</div>
+          </li>
+          <li class="skills-list-items">
+            <div class="swiper-name-list-aboutme">Soft skills</div>
+          </li>
+          <li class="skills-list-items">
+            <div class="swiper-name-list-aboutme">HTML/CSS</div>
+          </li>
+          <li class="skills-list-items">
+            <div class="swiper-name-list-aboutme">JavaScript</div>
+          </li>
+          <li class="skills-list-items">
+            <div class="swiper-name-list-aboutme">React</div>
+          </li>
+          <li class="skills-list-items">
+            <div class="swiper-name-list-aboutme">Node. js</div>
+          </li>
+          <li class="skills-list-items">
+            <div class="swiper-name-list-aboutme">React Native</div>
+          </li>
+          <li class="skills-list-items">
+            <div class="swiper-name-list-aboutme">Soft skills</div>
+          </li>
+        </ul>
+      </div>
+
+      <button class="skills-btm">
+        <img />
+      </button>
+    </div>
+  </div>
+</section>
+
+      <section class="benefits section container" id="benefits">
+  <div class="benefits-wraper">
+    <h2 class="benefits-title">Benefits of working with me</h2>
+    <div class="benefits-wraper-list">
+      <ul class="benefits-list">
+        <li class="benefits-item">
+          <div class="icon-background">
+            <svg class="benefits-svg">
+              <use href="/js_112_LobanovSK/assets/sprite-benefits-CsplR4_b.svg#icon-Expertise" />
+            </svg>
+          </div>
+
+          <h3 class="benefits-item-title">Expertise</h3>
+          <p class="benefits-item-text">
+            As a highly experienced developer, I have deep knowledge of
+            programming and website development.
+          </p>
+        </li>
+        <li class="benefits-item">
+          <div class="icon-background">
+            <svg class="benefits-svg">
+              <use href="/js_112_LobanovSK/assets/sprite-benefits-CsplR4_b.svg#icon-Communication" />
+            </svg>
+          </div>
+
+          <h3 class="benefits-item-title">Communication</h3>
+          <p class="benefits-item-text">
+            Understanding your needs and wants is my priority and I am always
+            open to discussions and corrections.
+          </p>
+        </li>
+        <li class="benefits-item">
+          <div class="icon-background">
+            <svg class="benefits-svg">
+              <use href="/js_112_LobanovSK/assets/sprite-benefits-CsplR4_b.svg#icon-Art" />
+            </svg>
+          </div>
+
+          <h3 class="benefits-item-title">Art</h3>
+          <p class="benefits-item-text">
+            Thanks to my creative nature, I am ready to accept challenges and
+            help you bring your ideas to life.
+          </p>
+        </li>
+        <li class="benefits-item">
+          <div class="icon-background">
+            <svg class="benefits-svg">
+              <use href="/js_112_LobanovSK/assets/sprite-benefits-CsplR4_b.svg#icon-Urgent_execution" />
+            </svg>
+          </div>
+
+          <h3 class="benefits-item-title">Urgent execution</h3>
+          <p class="benefits-item-text">
+            I understand how important time is to you. Ready to work quickly and
+            efficiently, without reducing the quality of work.
+          </p>
+        </li>
+      </ul>
+      <a class="benefits-link" href="#order">Order the project</a>
+    </div>
+  </div>
+</section>
+
+      <section class="projects_body" id="projects">
+  <div class="projects-container">
+    <h2 class="projects_visually-hidden">PROJECTS</h2>
+      <div class="mySwiper projects_swiper">
+      <div class="projects_swiper-wrapper swiper-wrapper">
+        <div class="projects_swiper-slide swiper-slide" id="projects_swiper-slide">
+          <div class="projects_swaper-first-part">
+            <ul class="projects_lang-list">
+                <li class="projects_lang-list-part">#react</li>
+                <li class="projects_lang-list-part">#js</li>
+                <li class="projects_lang-list-part">#node.js</li>
+                <li class="projects_lang-list-part">#git</li>
+            </ul>
+        <div class="projects_content">
+          <p class="projects_swaper-text">Programming Across Borders: Ideas, Technologies, Innovations</p>
+          <a href="https://github.com/LobanovSK/portfolio-js-team-9" class="See_projects-button" target="_blank">See project</a>
+        </div>
+      </div>
+        <div class="projects_swaper-second-part">
+          <div class="projects_picture-container">
+            <picture>
+              <source srcset="/js_112_LobanovSK/assets/read-journey-Dn53nWtW.png 1x, /js_112_LobanovSK/assets/read-journey@2-D-ABj73B.png 2x" media="(min-width: 768px)" width="614" height="385"> 
+              <img src="/js_112_LobanovSK/assets/read-journey-mob-4RzoiT6N.png" width="311" height="195" alt="read-journey">
+            </picture>
+        </div>
+        </div>
+        </div>
+        <div class="projects_swiper-slide swiper-slide" id="projects_swiper-slide2">
+          <div class="projects_swaper-first-part">
+            <ul class="projects_lang-list">
+                <li class="projects_lang-list-part">#react</li>
+                <li class="projects_lang-list-part">#js</li>
+                <li class="projects_lang-list-part">#node.js</li>
+                <li class="projects_lang-list-part">#git</li>
+            </ul>
+        <div  class="projects_content">
+          <p class="projects_swaper-text">Programming Across Borders: Ideas, Technologies, Innovations</p>
+          <a href="https://github.com/LobanovSK/portfolio-js-team-9" class="See_projects-button" target="_blank">See project</a>
+        </div>
+        </div>
+        <div class="projects_swaper-second-part">
+          <div class="projects_picture-container">
+            <picture>
+              <source srcset="/js_112_LobanovSK/assets/petlove-DP7IahYl.png 1x, /js_112_LobanovSK/assets/petlove@2-BgHiaM1w.png 2x" media="(min-width: 768px)" width="614" height="385"> 
+                <img src="/js_112_LobanovSK/assets/petlove-mob-DztSWLje.png" width="311" height="195" alt="petlove">
+            </picture>
+          </div>
+        </div>
+        </div>
+        <div class="projects_swiper-slide swiper-slide" id="projects_swiper-slide3">
+          <div class="projects_swaper-first-part">
+              <ul class="projects_lang-list">
+                  <li class="projects_lang-list-part">#react</li>
+                  <li class="projects_lang-list-part">#js</li>
+                  <li class="projects_lang-list-part">#node.js</li>
+                  <li class="projects_lang-list-part">#git</li>
+              </ul> 
+          <div  class="projects_content">
+            <p class="projects_swaper-text">Programming Across Borders: Ideas, Technologies, Innovations</p>
+            <a href="https://github.com/LobanovSK/portfolio-js-team-9" class="See_projects-button" target="_blank">See project</a>
+          </div>
+        </div>
+          <div class="projects_swaper-second-part">
+            <div class="projects_picture-container">
+              <picture>
+                <source srcset="/js_112_LobanovSK/assets/vocabbuilder-DtbWCP7V.png 1x, /js_112_LobanovSK/assets/vocabbuilder@2-DRX-zvFv.png 2x" media="(min-width: 768px)" width="614" height="385"> 
+              <img src="/js_112_LobanovSK/assets/vocabbuilder-mob-CooFiciE.png" width="311" height="195" alt="vocabbuilder">
+              </picture>
+          </div>
+          </div>
+        </div>
+      </div>
+        <div class="projects_arrows">      
+        <button
+        class="projects_icon-arrow-left"
+        tabindex="0"
+        aria-label="Previous slide"
+        aria-disabled="false"
+      >
+        <svg
+          width="32"
+          height="32"
+          viewBox="0 0 32 32"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          class="projects_arrow"
+        >
+          <path
+            d="M26.6666 16H5.33325"
+            stroke="#FAFAFA"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M13.3333 8L5.33325 16L13.3333 24"
+            stroke="#FAFAFA"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </button>
+      <button
+        class="projects_icon-arrow-right"
+        tabindex="0"
+        aria-label="Next slide"
+        aria-disabled="false"
+      >
+        <svg
+          width="32"
+          height="32"
+          viewBox="0 0 32 32"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          class="projects_arrow"
+        >
+          <path
+            d="M5.33325 16H26.6666"
+            stroke="#FAFAFA"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M18.6667 8L26.6667 16L18.6667 24"
+            stroke="#FAFAFA"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+    </div>
+  </div>
+ </section> 
+      <section class="faq" id="faq">
+  <div class="container">
+    <div class="faq-container">
+      <h3 class="faq-title">FAQ</h3>
+      <ul class="ul-faq js-accordion">
+        <li class="item-faq rightbord-faq">
+          <h4 class="h4-faq">
+            What programming languages ​​are most often used in your project?
+          </h4>
+          <button class="btn-faq">
+            <svg
+              class="faq-icon"
+              width="24px"
+              height="24px"
+              viewBox="0 0 24 24"
+            >
+              <use href="/js_112_LobanovSK/assets/symbol-defs-DWfHt6Uh.svg#icon-Icon"></use>
+            </svg>
+          </button>
+          <p class="text-faq">
+            In the field of web development, there are various technologies and
+            programming languages. Typically, this includes a combination of
+            frontend (client side) and backend (server side) languages.
+          </p>
+        </li>
+        <li class="item-faq left-pad-faq">
+          <h4 class="h4-faq">What are the deadlines for the project?</h4>
+          <button class="btn-faq">
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24">
+              <use href="/js_112_LobanovSK/assets/symbol-defs-DWfHt6Uh.svg#icon-Icon"></use>
+            </svg>
+          </button>
+          <p class="text-faq">
+            The terms of project implementation depend to a large extent on a
+            number of factors, such as the scope of the project, its complexity,
+            and the availability of resources. Determining exact deadlines is a
+            difficult task, and it usually occurs during the planning phase of
+            the project.
+          </p>
+        </li>
+
+        <li class="item-faq rightbord-faq">
+          <h4 class="h4-faq">What payment methods do you accept?</h4>
+          <button class="btn-faq">
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24">
+              <use href="/js_112_LobanovSK/assets/symbol-defs-DWfHt6Uh.svg#icon-Icon"></use>
+            </svg>
+          </button>
+          <p class="text-faq">
+            Payment through credit and debit cards such as Visa, MasterCard,
+            specialized electronic payment systems such as PayPal, as well as
+            payments in cryptocurrencies such as Bitcoin, Ethereum and others.
+          </p>
+        </li>
+
+        <li class="item-faq left-pad-faq">
+          <h4 class="h4-faq">How can I contact you?</h4>
+          <button class="btn-faq">
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24">
+              <use href="/js_112_LobanovSK/assets/symbol-defs-DWfHt6Uh.svg#icon-Icon"></use>
+            </svg>
+          </button>
+          <p class="text-faq">
+            In the field of web development, there are various technologies and
+            programming languages. Typically, this includes a combination of
+            frontend (client side) and backend (server side) languages.
+          </p>
+        </li>
+
+        <li class="item-faq rightbord-faq">
+          <h4 class="h4-faq">Do you provide advice or support?</h4>
+          <button class="btn-faq">
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24">
+              <use href="/js_112_LobanovSK/assets/symbol-defs-DWfHt6Uh.svg#icon-Icon"></use>
+            </svg>
+          </button>
+          <p class="text-faq">
+            The terms of project implementation depend to a large extent on a
+            number of factors, such as the scope of the project, its complexity,
+            and the availability of resources. Determining exact deadlines is a
+            difficult task, and it usually occurs during the planning phase of
+            the project.
+          </p>
+        </li>
+
+        <li class="item-faq left-pad-faq down">
+          <h4 class="h4-faq">
+            What does the process of developing a software product look like
+            from idea to implementation?
+          </h4>
+          <button class="btn-faq">
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24">
+              <use href="/js_112_LobanovSK/assets/symbol-defs-DWfHt6Uh.svg#icon-Icon"></use>
+            </svg>
+          </button>
+          <p class="text-faq">
+            Payment through credit and debit cards such as Visa, MasterCard,
+            specialized electronic payment systems such as PayPal, as well as
+            payments in cryptocurrencies such as Bitcoin, Ethereum and others.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <section class="covers-section" id="covers">
+  <h2 class="visually-hidden">Covers</h2>
+  <div class="covers-cont">
+    <ul class="covers-list">
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj8@2x-D52wXVXW.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj8-CYuGc2s2.jpg"
+          alt="project-8"
+        />
+      </li>
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj10@2x-BZys0wxR.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj10-DMoyi-D2.jpg"
+          alt="project-10"
+        />
+      </li>
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj9@2x-D5f6wghm.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj9-C7rGMnZy.jpg"
+          alt="project-9"
+        />
+      </li>
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj4@2x-B1yuC7Uk.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj4-Dmwq3Lgw.jpg"
+          alt="project-4"
+        />
+      </li>
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj5@2x-iYzN3IKs.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj5-DY8UBBqh.jpg"
+          alt="project-5"
+        />
+      </li>
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj6@2x-_5Hld3O6.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj6-I3yDYjmH.jpg"
+          alt="project-6"
+        />
+      </li>
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj7@2x-B8h6Zj8W.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj7-CvGs3UXO.jpg"
+          alt="project-7"
+        />
+      </li>
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj8@2x-D52wXVXW.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj8-CYuGc2s2.jpg"
+          alt="project-8"
+        />
+      </li>
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj9@2x-D5f6wghm.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj9-C7rGMnZy.jpg"
+          alt="project-9"
+        />
+      </li>
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj10@2x-BZys0wxR.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj10-DMoyi-D2.jpg"
+          alt="project-10"
+        />
+      </li>
+    </ul>
+    <ul class="covers-list">
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj10@2x-BZys0wxR.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj10-DMoyi-D2.jpg"
+          alt="project-10"
+        />
+      </li>
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj2@2x-C5w9a6yU.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj2-BzXRQKgP.jpg"
+          alt="project-2"
+        />
+      </li>
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj5@2x-iYzN3IKs.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj5-DY8UBBqh.jpg"
+          alt="project-5"
+        />
+      </li>
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj7@2x-B8h6Zj8W.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj7-CvGs3UXO.jpg"
+          alt="project-7"
+        />
+      </li>
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj8@2x-D52wXVXW.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj8-CYuGc2s2.jpg"
+          alt="project-8"
+        />
+      </li>
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj6@2x-_5Hld3O6.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj6-I3yDYjmH.jpg"
+          alt="project-6"
+        />
+      </li>
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj9@2x-D5f6wghm.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj9-C7rGMnZy.jpg"
+          alt="project-9"
+        />
+      </li>
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj3@2x-BQ3HSr_q.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj3-FMIvg4Qf.jpg"
+          alt="project-3"
+        />
+      </li>
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj4@2x-B1yuC7Uk.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj4-Dmwq3Lgw.jpg"
+          alt="project-4"
+        />
+      </li>
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj10@2x-BZys0wxR.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj10-DMoyi-D2.jpg"
+          alt="project-10"
+        />
+      </li>
+    </ul>
+    <ul class="covers-list">
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj5@2x-iYzN3IKs.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj5-DY8UBBqh.jpg"
+          alt="project-5"
+        />
+      </li>
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj8@2x-D52wXVXW.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj8-CYuGc2s2.jpg"
+          alt="project-8"
+        />
+      </li>
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj3@2x-BQ3HSr_q.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj3-FMIvg4Qf.jpg"
+          alt="project-3"
+        />
+      </li>
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj10@2x-BZys0wxR.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj10-DMoyi-D2.jpg"
+          alt="project-10"
+        />
+      </li>
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj6@2x-_5Hld3O6.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj6-I3yDYjmH.jpg"
+          alt="project-6"
+        />
+      </li>
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj9@2x-D5f6wghm.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj9-C7rGMnZy.jpg"
+          alt="project-9"
+        />
+      </li>
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj2@2x-C5w9a6yU.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj2-BzXRQKgP.jpg"
+          alt="project-2"
+        />
+      </li>
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj7@2x-B8h6Zj8W.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj7-CvGs3UXO.jpg"
+          alt="project-7"
+        />
+      </li>
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj4@2x-B1yuC7Uk.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj4-Dmwq3Lgw.jpg"
+          alt="project-4"
+        />
+      </li>
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj1@2x-B98Sodjg.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj1-Bj9ELWn8.jpg"
+          alt="project-1"
+        />
+      </li>
+    </ul>
+    <ul class="covers-list">
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj4@2x-B1yuC7Uk.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj4-Dmwq3Lgw.jpg"
+          alt="project-4"
+        />
+      </li>
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj5@2x-iYzN3IKs.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj5-DY8UBBqh.jpg"
+          alt="project-5"
+        />
+      </li>
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj8@2x-D52wXVXW.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj8-CYuGc2s2.jpg"
+          alt="project-8"
+        />
+      </li>
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj9@2x-D5f6wghm.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj9-C7rGMnZy.jpg"
+          alt="project-9"
+        />
+      </li>
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj5@2x-iYzN3IKs.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj5-DY8UBBqh.jpg"
+          alt="project-5"
+        />
+      </li>
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj6@2x-_5Hld3O6.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj6-I3yDYjmH.jpg"
+          alt="project-6"
+        />
+      </li>
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj2@2x-C5w9a6yU.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj2-BzXRQKgP.jpg"
+          alt="project-2"
+        />
+      </li>
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj3@2x-BQ3HSr_q.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj3-FMIvg4Qf.jpg"
+          alt="project-3"
+        />
+      </li>
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj10@2x-BZys0wxR.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj10-DMoyi-D2.jpg"
+          alt="project-10"
+        />
+      </li>
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj1@2x-B98Sodjg.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj1-Bj9ELWn8.jpg"
+          alt="project-1"
+        />
+      </li>
+    </ul>
+    <ul class="covers-list">
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj9@2x-D5f6wghm.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj9-C7rGMnZy.jpg"
+          alt="project-9"
+        />
+      </li>
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj10@2x-BZys0wxR.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj10-DMoyi-D2.jpg"
+          alt="project-10"
+        />
+      </li>
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj3@2x-BQ3HSr_q.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj3-FMIvg4Qf.jpg"
+          alt="project-3"
+        />
+      </li>
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj4@2x-B1yuC7Uk.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj4-Dmwq3Lgw.jpg"
+          alt="project-4"
+        />
+      </li>
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj5@2x-iYzN3IKs.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj5-DY8UBBqh.jpg"
+          alt="project-5"
+        />
+      </li>
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj6@2x-_5Hld3O6.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj6-I3yDYjmH.jpg"
+          alt="project-6"
+        />
+      </li>
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj7@2x-B8h6Zj8W.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj7-CvGs3UXO.jpg"
+          alt="project-7"
+        />
+      </li>
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj8@2x-D52wXVXW.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj8-CYuGc2s2.jpg"
+          alt="project-8"
+        />
+      </li>
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj9@2x-D5f6wghm.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj9-C7rGMnZy.jpg"
+          alt="project-9"
+        />
+      </li>
+      <li class="covers-list-item">
+        <img
+          class="covers-img"
+          srcset="/js_112_LobanovSK/assets/proj10@2x-BZys0wxR.jpg 2x"
+          src="/js_112_LobanovSK/assets/proj10-DMoyi-D2.jpg"
+          alt="project-10"
+        />
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="reviews-container">
+  <div class="container" reviews-container>
+    <h2 class="reviews-section-title">Reviews</h2>
+    <!-- це контейнер для слайдера ревью -->
+    <div class="swiper-reviews">
+      <ul class="swiper-wrapper reviews-list" id="reviews-list">
+        <!-- самі відгуки додаються через js, тут немає розмітки -->
+      </ul>
+    </div>
+    <!-- розмітка свайпер арровс -->
+    <div class="reviews-navigation">
+      <button
+        class="swiper-button-prev-reviews"
+        tabindex="0"
+        aria-label="Previous slide"
+        aria-controls="reviews-list"
+        aria-disabled="false"
+      >
+        <svg
+          width="32"
+          height="32"
+          viewBox="0 0 32 32"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M26.6666 16H5.33325"
+            stroke="#FAFAFA"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M13.3333 8L5.33325 16L13.3333 24"
+            stroke="#FAFAFA"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </button>
+      <button
+        class="swiper-button-next-reviews"
+        tabindex="0"
+        aria-label="Next slide"
+        aria-controls="reviews-list"
+        aria-disabled="false"
+      >
+        <svg
+          width="32"
+          height="32"
+          viewBox="0 0 32 32"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M5.33325 16H26.6666"
+            stroke="#FAFAFA"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M18.6667 8L26.6667 16L18.6667 24"
+            stroke="#FAFAFA"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer class="page-footer" id="order">
+  <div class="footer-container">
+    <div class="footer-logo-box">
+      <a class="footer-logo" href="/portfolio-js-team-9/">
+        <picture>
+          <source
+            srcset="/js_112_LobanovSK/assets/footer-logo-large@1x-Dcg5PNUR.png 1x, /js_112_LobanovSK/assets/footer-logo-large@2x-DeVoJ7G3.png 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="data:image/png;base64,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 1x, /js_112_LobanovSK/assets/footer-logo-mobile@2x-hL7_Wu3N.png 2x"
+            media="(max-width: 767px)"
+          />
+          <img src="data:image/png;base64,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" alt="Logotype" />
+        </picture>
+      </a>
+      <h2 class="footer-title">
+        Let’s <span class="footer-color-span">work</span>
+        <span class="footer-left-span">together</span>
+      </h2>
+    </div>
+    <form class="footer-form">
+      <div class="input-wrapper">
+        <input
+          class="footer-form-input email"
+          type="email"
+          name="email"
+          placeholder="clients@gmail.com"
+          pattern="^\w+(\.\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"
+          autocomplete="off"
+          required
+        />
+        <span class="text-valid">Success!</span>
+        <span class="text-invalid">Invalid email, try again</span>
+      </div>
+      <div class="input-wrapper">
+        <input
+          class="footer-form-input comment"
+          type="text"
+          name="comments"
+          placeholder="comments"
+          autocomplete="off"
+          required
+          data-maxlength="24"
+        />
+      </div>
+      <button class="footer-form-btn" type="submit">Send</button>
+    </form>
+    <address class="footer-contacts">
+      <ul class="footer-contacts-list">
+        <li class="footer-contacts-item">
+          <a class="footer-contacts-link" href="mailto:lloydjefferson@gmail.com"
+            >lloydjefferson@gmail.com</a
+          >
+        </li>
+        <li class="footer-contacts-item">
+          <a class="footer-contacts-link" href="tel:+3801111111111"
+            >+380 11 1111 11 11</a
+          >
+        </li>
+      </ul>
+    </address>
+  </div>
+</footer>
+
+<!-- Modal-window -->
+
+<div class="backdrop">
+  <div class="footer-modal">
+    <button class="footer-modal-close-btn" type="button">
+      <svg class="modal-close-icon" width="24" height="24">
+        <use href="/js_112_LobanovSK/assets/footer-sprite-Cmf3cccI.svg#icon-modal-close-icon"></use>
+      </svg>
+    </button>
+    <h3 class="footer-modal-title">
+      Thank you for your interest in cooperation!
+    </h3>
+    <p class="footer-modal-text">
+      The manager will contact you shortly to discuss further details and
+      opportunities for cooperation. Please stay in touch.
+    </p>
+  </div>
+</div>
+
+    <!-- Підключення JS -->
+  </body>
+</html>
